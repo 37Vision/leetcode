@@ -1,0 +1,25 @@
+int reverse(int x) {
+    
+    long long test = x;
+    int yu = 0;
+    long long temp = 0;
+    int flag=1;
+    if(x<0)
+    {
+        test = -test;
+        flag = -1;
+    }
+    while(test!=0)
+    {
+        yu = test%10;
+        test = test / 10;
+        temp = temp*10 + yu;
+    }
+    int i = 1<<31;
+    i = ~i;
+    if(temp > i)
+        return 0;
+    else
+        return temp*flag;
+}return res*sign;
+}
