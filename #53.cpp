@@ -13,7 +13,7 @@ int maxSubArray(int* nums, int numsSize) {
         if (sum < nums[i]) {
             sum = nums[i];
         }
-	//é‡æ–°æ‰¾èµ·ç‚¹ 
+	//ÖØÐÂÑ°ÕÒÆðµãÎ»ÖÃ 
         if(nums[i] > maxSum)
         {
             maxSum = nums[i];
