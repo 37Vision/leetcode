@@ -13,7 +13,7 @@ int maxSubArray(int* nums, int numsSize) {
         if (sum < nums[i]) {
             sum = nums[i];
         }
-	//重新寻找起点位置 
+	//閲嶆柊瀵绘壘璧风偣浣嶇疆
         if(nums[i] > maxSum)
         {
             maxSum = nums[i];
